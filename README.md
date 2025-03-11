@@ -22,6 +22,7 @@ Cada um dos microfrontends é servido em uma porta diferente, definida nos seus 
 - **[vite-plugin-federation](https://github.com/originjs/vite-plugin-federation)**
 
 ## Como Executar o Projeto
+Primeiramente, é necessário executar o comando ```npm install``` no diretório raiz e em cada um dos diretórios dos projetos.
 
 ### Executar Todos os Microfrontends Juntos
 Na pasta raiz, execute:
