@@ -29,7 +29,7 @@ Na pasta raiz, execute:
 ```sh
 npm run dev
 ```
-Isso irá iniciar todos os microfrontends e o `orchestrator` simultaneamente.
+Isso irá iniciar todos os microfrontends e o `orchestrator` simultaneamente, e a aplicação será servida no link **[http://localhost:5000/](http://localhost:5000/)**.
 
 ### Executar um Microfrontend Individualmente
 Se precisar rodar apenas um microfrontend específico, use:
