@@ -5,8 +5,16 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import federation from '@originjs/vite-plugin-federation'
 
+const APPLICATION_PORT = 5000;
+
 // https://vite.dev/config/
 export default defineConfig({
+  preview: {
+    port: APPLICATION_PORT,
+  },
+  server: {
+    port: APPLICATION_PORT,
+  },
   plugins: [
     vue(),
     vueDevTools(),
